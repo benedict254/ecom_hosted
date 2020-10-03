@@ -1,0 +1,68 @@
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Footer color for sake of consistency with Navbar */
+
+
+  #cart-icon{
+    width:25px;
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  /* GREEN THEME */
+
+.pagination {
+  margin-top: 1em;
+}
+
+.pagination a {
+  text-decoration: none;
+}
+
+.pagination-current,
+.pagination-total {
+  padding: 0.5em 0.8em;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #30BF61;
+}
+
+.pagination-total {
+  background-color: #B9B9B9;
+}
+
+.pagination-action {
+  margin: 0 0.1em;
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  color: #B9B9B9;
+  font-size: 1.3em;
+}
+
+.pagination-of {
+  color: #B9B9B9;
+  padding: 0 1em;
+}
+
+.pagination-action:hover {
+  color: #3354AA;
+}
